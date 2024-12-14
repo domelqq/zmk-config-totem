@@ -55,20 +55,14 @@
         };
     };
 
-    macros {
-        gif: gif {
-            label = "giphy";
-            compatible = "zmk,behavior-macro";
+    behaviors {
+        right_par_combo_morp: right_par_combo_morp {
+            compatible = "zmk,behavior-mod-morph";
+            label = "RIGHT_PAR_COMBO_MORP";
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
+
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp N2>,
-                <&macro_release>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp G &kp I &kp F>;
+            mods = <(MOD_LSFT)>;
         };
     };
 
