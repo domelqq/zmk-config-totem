@@ -103,10 +103,10 @@
 
         symbol_layer {
             bindings = <
-        &kp LS(EXCL)   &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)
-        &kp LS(TILDE)  &kp LG(Z)   &kp LS(COLON)  &kp LS(PLUS)  &kp LS(DLLR)     &kp LS(LBRC)   &kp LS(LBRC)  &kp LS(RBRC)  &kp LBKT      &kp RBKT
-&trans  &kp GRAVE      &kp LG(Z)   &trans         &trans        &trans           &trans         &trans        &trans        &trans        &kp LS(PIPE)  &kp BSLH
-                                   &trans         &trans        &trans           &trans         &trans        &trans
+        &kp EXCLAMATION  &kp AT     &kp HASH       &kp DOLLAR    &kp PERCENT     &kp CARET     &kp AMPERSAND  &kp STAR      &kp MINUS  &kp LS(RPAR)
+        &kp LS(TILDE)    &kp LG(Z)  &kp LS(COLON)  &kp LS(PLUS)  &kp LS(DLLR)    &kp LS(LBRC)  &kp LS(LBRC)   &kp LS(RBRC)  &kp LBKT   &kp RBKT
+&trans  &kp GRAVE        &kp LG(Z)  &trans         &trans        &trans          &trans        &trans         &trans        &trans     &kp LS(PIPE)  &kp BSLH
+                                    &trans         &trans        &trans          &trans        &trans         &trans
             >;
         };
 
