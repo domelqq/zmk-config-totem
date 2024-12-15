@@ -14,7 +14,6 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 
 #define BASE 0
 #define NAV  1
@@ -66,22 +65,22 @@
         };
 
         underscore {
-            bindings = <&kt MINUS>;
+            bindings = <&kp MINUS>;
             key-positions = <7 17>;
         };
 
         or_char {
-            bindings = <&kt NON_US_BACKSLASH>;
+            bindings = <&kp NON_US_BACKSLASH>;
             key-positions = <17 28>;
         };
 
         at_sign {
-            bindings = <&kt AT_SIGN>;
+            bindings = <&kp AT_SIGN>;
             key-positions = <12 23>;
         };
 
         exclamation {
-            bindings = <&kt EXCLAMATION>;
+            bindings = <&kp EXCLAMATION>;
             key-positions = <2 12>;
         };
     };
