@@ -58,6 +58,11 @@
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <11 1>;
         };
+
+        right_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <3 13>;
+        };
     };
 
     keymap {
