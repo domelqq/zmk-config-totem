@@ -85,6 +85,7 @@
         hash {
             bindings = <&kp HASH>;
             key-positions = <2 12>;
+            layers = <0>;
         };
 
         dollar {
