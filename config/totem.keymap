@@ -105,6 +105,17 @@
         };
     };
 
+    behaviors {
+        left_par_right: left_par_right {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LEFT_PAR_RIGHT";
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
