@@ -35,22 +35,22 @@
         compatible = "zmk,combos";
 
         left_parenthesis {
-            bindings = <&left_par_right>;
+            bindings = <&l_par_r>;
             key-positions = <6 16>;
         };
 
         right_parenthesis {
-            bindings = <&kp MINUS>;
+            bindings = <&kp SQT>;
             key-positions = <8 18>;
         };
 
         left_bracket {
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&l_brace_r>;
             key-positions = <16 27>;
         };
 
         right_bracket {
-            bindings = <&kp RIGHT_BRACKET>;
+            bindings = <&l_bracket_r>;
             key-positions = <18 29>;
         };
 
@@ -106,10 +106,28 @@
     };
 
     behaviors {
-        left_par_right: left_par_right {
+        l_par_r: l_par_r {
             compatible = "zmk,behavior-mod-morph";
-            label = "LEFT_PAR_RIGHT";
+            label = "L_PAR_R";
             bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        l_brace_r: l_brace_r {
+            compatible = "zmk,behavior-mod-morph";
+            label = "L_BRACE_R";
+            bindings = <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        l_bracket_r: l_bracket_r {
+            compatible = "zmk,behavior-mod-morph";
+            label = "L_BRACKET_R";
+            bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
