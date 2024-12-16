@@ -35,7 +35,7 @@
         compatible = "zmk,combos";
 
         left_parenthesis {
-            bindings = <&kp LEFT_PARENTHESIS>;
+            bindings = <&left_par_right>;
             key-positions = <6 16>;
         };
 
