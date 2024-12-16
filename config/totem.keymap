@@ -90,12 +90,12 @@
         };
 
         copy {
-            bindings = <&kp K_COPY>;
+            bindings = <&kp LG(C)>;
             key-positions = <12 23>;
         };
 
         paste {
-            bindings = <&kp K_PASTE>;
+            bindings = <&kp LG(P)>;
             key-positions = <13 24>;
         };
 
