@@ -40,7 +40,7 @@
         };
 
         right_parenthesis {
-            bindings = <&kp RIGHT_PARENTHESIS>;
+            bindings = <&kp MINUS>;
             key-positions = <8 18>;
         };
 
@@ -95,7 +95,7 @@
         };
 
         paste {
-            bindings = <&kp LG(P)>;
+            bindings = <&kp LG(V)>;
             key-positions = <13 24>;
         };
 
