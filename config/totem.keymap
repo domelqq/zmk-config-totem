@@ -121,7 +121,7 @@
             layers = <0 1>;
         };
 
-        esc {
+        idea_sequence {
             bindings = <&kp RS(RA(RC(RG(F))))>;
             key-positions = <16 17 18>;
         };
@@ -130,6 +130,11 @@
             bindings = <&kp LG(Z)>;
             key-positions = <11 22>;
             layers = <0>;
+        };
+
+        idea_search {
+            bindings = <&kp RS(RA(RC(RG(L))))>;
+            key-positions = <13 12 11>;
         };
     };
 
